@@ -14,8 +14,8 @@ html {
     align-items: center;
     min-height: 100px;
     width: 50%;
-    margin: 0 auto;
     margin-top: 10px;
+    margin: 0 auto;
     border-radius: 25px;
 }
 
@@ -64,4 +64,10 @@ html {
     padding: 5px;
     margin: 5px;
 
+}
+@media (min-width: 600px) {
+    .nav {
+        margin-left: auto;
+        width: 70%;
+    }
 }
